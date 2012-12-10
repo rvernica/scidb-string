@@ -1,7 +1,7 @@
 find_package(Boost REQUIRED)
 find_package(Scidb REQUIRED)
 
-find_file(LOG4CXX_INCLUDE_DIR
+find_path(LOG4CXX_INCLUDE_DIR
   log4cxx/logger.h
   )
 
