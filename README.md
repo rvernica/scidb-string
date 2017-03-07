@@ -84,3 +84,8 @@ If if want to install a different revision or specify a proxy, use:
 ```
 $ iquery --afl --query "install_github('rvernica/scidb-string', 'master', 'https_proxy=https://...')"
 ```
+
+To load the library, use:
+```
+$ iquery --afl --query "load_library(string)"
+```
